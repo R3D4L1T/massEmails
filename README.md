@@ -1,81 +1,47 @@
-# Msmmassive app
+# SMS Massive - Polyline Constructora
 
-## Run the app
+A Python application built with Flet for sending mass emails with customizable templates, attachments, and HTML support.
 
-### uv
+## Features
+- **Simple Emails**: Send plain text emails with a subject and message.
+- **Complex Emails**: Include attachments with your emails.
+- **HTML Emails**: Send emails with custom HTML templates.
+- **Bulk Sending**: Send emails to multiple recipients from a CSV file.
+- **Progress Tracking**: Monitor the progress of email sending with a progress bar and logs.
 
-Run as a desktop app:
+<img src="https://github.com/R3D4L1T/massEmails/img1.jpg">
+<img src="https://github.com/R3D4L1T/massEmails/img2.jpg">
+<img src="https://github.com/R3D4L1T/massEmails/img3.jpg">
 
-```
-uv run flet run
-```
 
-Run as a web app:
 
-```
-uv run flet run --web
-```
 
-### Poetry
 
-Install dependencies from `pyproject.toml`:
+## Prerequisites
+- Python 3.8 or higher
+- Flet library (`pip install flet`)
+- SMTP credentials (e.g., Gmail)
 
-```
-poetry install
-```
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/smsMassive.git
+   cd smsMassive
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Run as a desktop app:
+## Usage
+1. Run the application:
+   ```bash
+   python src/main.py
+   ```
+2. Follow the on-screen instructions to compose and send emails.
 
-```
-poetry run flet run
-```
+## Configuration
+- **SMTP Settings**: Update the `emailAddress` and `passwordAddress` fields in the app with your SMTP credentials.
+- **CSV File**: Ensure your CSV file has a `correo` column for recipient emails.
 
-Run as a web app:
 
-```
-poetry run flet run --web
-```
-
-For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/getting-started/).
-
-## Build the app
-
-### Android
-
-```
-flet build apk -v
-```
-
-For more details on building and signing `.apk` or `.aab`, refer to the [Android Packaging Guide](https://flet.dev/docs/publish/android/).
-
-### iOS
-
-```
-flet build ipa -v
-```
-
-For more details on building and signing `.ipa`, refer to the [iOS Packaging Guide](https://flet.dev/docs/publish/ios/).
-
-### macOS
-
-```
-flet build macos -v
-```
-
-For more details on building macOS package, refer to the [macOS Packaging Guide](https://flet.dev/docs/publish/macos/).
-
-### Linux
-
-```
-flet build linux -v
-```
-
-For more details on building Linux package, refer to the [Linux Packaging Guide](https://flet.dev/docs/publish/linux/).
-
-### Windows
-
-```
-flet build windows -v
-```
-
-For more details on building Windows package, refer to the [Windows Packaging Guide](https://flet.dev/docs/publish/windows/).
