@@ -9,9 +9,9 @@ A Python application built with Flet for sending mass emails with customizable t
 - **Bulk Sending**: Send emails to multiple recipients from a CSV file.
 - **Progress Tracking**: Monitor the progress of email sending with a progress bar and logs.
 
-<img src="https://github.com/R3D4L1T/massEmails/img1.jpg">
-<img src="https://github.com/R3D4L1T/massEmails/img2.jpg">
-<img src="https://github.com/R3D4L1T/massEmails/img3.jpg">
+<img src="https://github.com/R3D4L1T/blob/main/massEmails/img1.jpg">
+<img src="https://github.com/R3D4L1T/blob/main/massEmails/img2.jpg">
+<img src="https://github.com/R3D4L1T/blob/main/massEmails/img3.jpg">
 
 
 
